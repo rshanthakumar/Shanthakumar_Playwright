@@ -1,0 +1,112 @@
+- generic [ref=f1e1]:
+  - generic:
+    - status
+    - status
+    - dialog "Available Values" [ref=f1e168]:
+      - banner
+      - grid [ref=f1e172]:
+        - rowgroup
+        - rowgroup [ref=f1e173]:
+          - row [ref=f1e174] [cursor=pointer]:
+            - gridcell "Apps" [ref=f1e175]
+          - row [ref=f1e180] [cursor=pointer]:
+            - gridcell "Create Purchase Order via Purchase Requisition Assignment List" [ref=f1e181]:
+              - listitem [ref=f1e182]:
+                - generic [ref=f1e184]:
+                  - generic [aria-hidden] [ref=f1e186]: 
+                  - generic [ref=f1e187]: Create Purchase Order via Purchase Requisition Assignment List
+          - row [ref=f1e189] [cursor=pointer]:
+            - gridcell "Create Purchase Order - Advanced" [ref=f1e190]:
+              - listitem [ref=f1e191]:
+                - generic [ref=f1e193]:
+                  - generic [aria-hidden] [ref=f1e195]: 
+                  - generic [ref=f1e196]: Create Purchase Order - Advanced
+          - row [ref=f1e198] [cursor=pointer]:
+            - gridcell "Purchase Orders Created After Invoices" [ref=f1e199]:
+              - listitem [ref=f1e200]:
+                - generic [ref=f1e201]: Purchase Orders Created After Invoices
+  - generic [ref=f1e9]:
+    - banner "Shell Bar" [ref=f1e11]:
+      - generic [ref=f1e12]:
+        - button [ref=f1e13] [cursor=pointer]:
+          - img "SAP Logo" [ref=f1e14]
+        - heading [level=1] [ref=f1e15] [cursor=pointer]:
+          - button "Home - Show All My Apps" [ref=f1e16]:
+            - generic [ref=f1e17]: Home
+            - generic [aria-hidden] [ref=f1e19]: 
+      - generic [ref=f1e150]:
+        - generic [ref=f1e152] [cursor=pointer]:
+          - combobox "Search In" [ref=f1e153]: All
+          - textbox [aria-hidden] [ref=f1e154]: All
+          - generic [aria-hidden] [ref=f1e155]: All
+          - generic [aria-hidden] [ref=f1e156]: 
+        - generic "Search" [ref=f1e158]:
+          - searchbox "Search" [active] [ref=f1e160]: Create Purchase Order
+          - status: 4 results are available
+        - button "Search" [ref=f1e167] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e164]: 
+      - generic [ref=f1e22]:
+        - button "Open Help" [ref=f1e165] [cursor=pointer]:
+          - generic [ref=f1e166]: 
+        - button "Notifications" [ref=f1e88] [cursor=pointer]:
+          - generic [ref=f1e89]: 
+        - button "Profile of Esakki kumar" [ref=f1e23] [cursor=pointer]:
+          - generic: Ek
+    - generic [ref=f1e25]:
+      - generic [ref=f1e93]:
+        - button "Personalize Navigation Bar" [ref=f1e97] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f1e99]: 
+        - navigation "Space Page" [ref=f1e100]:
+          - tablist [ref=f1e101]:
+            - tab "My Home" [selected] [ref=f1e102] [cursor=pointer]
+            - separator
+            - tab "Accounts Payable" [ref=f1e107] [cursor=pointer]:
+              - separator [ref=f1e112]
+              - button "More" [ref=f1e113]:
+                - generic [aria-hidden] [ref=f1e115]: 
+            - tab "Accounts Payable" [ref=f1e116] [cursor=pointer]:
+              - separator [ref=f1e121]
+              - button "More" [ref=f1e122]:
+                - generic [aria-hidden] [ref=f1e124]: 
+            - tab "Accounts Payable - Procurement" [ref=f1e125] [cursor=pointer]:
+              - separator [ref=f1e130]
+              - button "More" [ref=f1e131]:
+                - generic [aria-hidden] [ref=f1e133]: 
+            - tab "Accounts Receivable" [ref=f1e134] [cursor=pointer]:
+              - separator [ref=f1e139]
+              - button "More" [ref=f1e140]:
+                - generic [aria-hidden] [ref=f1e142]: 
+            - text:                          
+          - button "More" [ref=f1e144] [cursor=pointer]:
+            - generic [ref=f1e146]:
+              - generic [ref=f1e147]: More
+              - generic:
+                - generic [aria-hidden]: 
+      - generic [ref=f1e27]:
+        - main "Shell Content" [ref=f1e32]:
+          - region "Page Sections" [ref=f1e40]:
+            - generic [ref=f1e42]:
+              - heading [level=2]
+              - group "My Apps Section" [ref=f1e44]:
+                - heading "My Apps" [level=3] [ref=f1e45]
+                - list [ref=f1e46]:
+                  - listitem [ref=f1e47]:
+                    - link "SAP Fiori Launchpad (UI5 App) Tile" [ref=f1e52] [cursor=pointer]:
+                      - /url: https://s4tr4.applexus.com:8444/sap/bc/ui2/flp?sap-client=100&sap-language=EN&sap-ushell-config=lean#Shell-startGUI?sap-system=FIORI_MENU&sap-ui2-tcode=F0000
+                      - generic [ref=f1e53]: SAP Fiori Launchpad (UI5 App)
+                  - listitem [ref=f1e60]:
+                    - link "SAP Fiori Launchpad (UI5 App) Tile" [ref=f1e65] [cursor=pointer]:
+                      - /url: https://s4tr4.applexus.com:8444/sap/bc/ui2/flp?sap-client=100&sap-language=EN&sap-ushell-config=lean#Shell-startGUI?sap-system=FIORI_MENU&sap-ui2-tcode=F0000
+                      - generic [ref=f1e66]: SAP Fiori Launchpad (UI5 App)
+                  - listitem [ref=f1e73]:
+                    - link "Customizing for delivery types Tile" [ref=f1e78] [cursor=pointer]:
+                      - /url: https://s4tr4.applexus.com:8444/sap/bc/ui2/flp?sap-client=100&sap-language=EN&sap-ushell-config=lean#Shell-startGUI?sap-system=FIORI_MENU&sap-ui2-tcode=0VLK
+                      - generic [ref=f1e79]: Customizing for delivery types
+                - list
+                - group "Links"
+        - generic:
+          - complementary "Floating Container":
+            - list
+    - contentinfo
+  - generic:
+    - region "Notification"

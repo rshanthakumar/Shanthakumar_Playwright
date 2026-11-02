@@ -1,0 +1,45 @@
+- generic [ref=f1e1]:
+  - generic:
+    - status
+    - status
+  - generic [ref=f1e9]:
+    - banner "Shell Bar" [ref=f1e11]:
+      - generic [ref=f1e12]:
+        - button "Back" [ref=f1e207] [cursor=pointer]:
+          - generic [ref=f1e208]: 
+        - button [ref=f1e13] [cursor=pointer]:
+          - img "SAP Logo" [ref=f1e14]
+        - heading [level=1] [ref=f1e209] [cursor=pointer]:
+          - button "SAP GUI for HTML - Show Navigation Menu" [active] [ref=f1e210]:
+            - generic [ref=f1e17]: SAP GUI for HTML
+            - generic [aria-hidden] [ref=f1e19]: 
+      - generic [ref=f1e21]:  
+      - generic [ref=f1e22]:
+        - button "Open Search" [ref=f1e211] [cursor=pointer]:
+          - generic [ref=f1e212]: 
+        - button "Open Help" [ref=f1e165] [cursor=pointer]:
+          - generic [ref=f1e166]: 
+        - button "Notifications" [ref=f1e88] [cursor=pointer]:
+          - generic [ref=f1e89]: 
+        - button "Profile of Esakki kumar" [ref=f1e23] [cursor=pointer]:
+          - generic: Ek
+    - generic [ref=f1e25]:
+      - text:                                
+      - generic [ref=f1e27]:
+        - main "Shell Content" [ref=f1e32]:
+          - iframe [ref=f1e214]:
+            - generic [ref=f3e1]:
+              - main [ref=f3e2]:
+                - generic [ref=f3e4]:
+                  - generic [ref=f3e9]:
+                    - button "Menu" [ref=f3e11] [cursor=pointer]:
+                      - generic [aria-hidden]: 
+                    - text: 
+                  - generic [ref=f3e13]: 
+              - generic: EmphasizedPrevious ActionNext ActionPositive ActionNegative ActionTo open the menu, press F4.Press Enter to trigger an action and Arrow Down to open the menu.Split ButtonTo edit the title, press F2. To lock the title, press Enter.To open list, press F4. To select a different item, use up and down arrow keys.To select, press the space bar.To deselect, press the space bar.To enter, press the tab key. To navigate within a month, use the arrow keys.To edit the text, press F2. To save the text, press Enter. To cancel editing, press Escape.Press the left arrow key for the previous month.Press the right arrow key for the next month.Press the left arrow key for the previous month. Press the up arrow key for the previous year.Press the right arrow key for the next month. Press the down arrow key for the next year.To select a day, press the space bar. To move through the days, use the arrow keys. To go to the previous or next month, use Page Up/Down. To go to the previous or next year, use Shift+Page Up/Down.RequiredEmphasizedWarningInformationValue help availableTo search, press F4.RequiredRead-OnlyItemDeletableSelectededitableDisabledInvalidTo move through the items, use the left and right arrow keys.To move through the items, use the left and right arrow keys. To select items, use the space bar.Collapse toolbarExpand toolbarTo invoke, press return key.To open the list of proposals, press ALT + arrow down.To edit the title, press F2.To lock the title, press Enter.To open, press the space bar.To move through the items, use the up and down arrow keys.To collapse, press the space bar.To expand, press the space bar.To move, hold shift and press the arrow keys.SelectedTo activate, press the space bar.Navigation listInput field for file uploadRead-OnlyPager ItemTo select, press the space bar.To deselect, press CTRL and the space bar.To deselect all, press CTRL and the space bar.To select all, press the space bar.Column for row selectionBreadcrumb navigation listSet the value using the arrow keys.Press F4 to open the list and use the arrow keys to select a value.SearchCalculatorSpinnerDate SpinnerValue help availableDateHighlightedHotspotEmptyTo navigate to content, press Tab.To move to an item, press the arrow keys.FilteredExpandedCollapsedInvalidMessage area contains messages. To toggle the focus, press Ctrl+Shift+Alt+M.CompletedTo expand, press plus.To collapse, press minus.
+        - generic:
+          - complementary "Floating Container":
+            - list
+    - contentinfo
+  - generic:
+    - region "Notification"

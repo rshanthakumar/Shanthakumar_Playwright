@@ -1,0 +1,5 @@
+[    5218ms] [LOG] 16:19:52.309 login [INFO] Activating application @ https://s4tr4.applexus.com:8444/sap/public/bc/ui2/logon/fiori3/js/login.js?v=3_9_1:1180
+[    5237ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://s4tr4.applexus.com:8444/sap/bc/ui2/flp?sap-client=100:0
+[    5238ms] [LOG] 16:19:52.329 login [INFO] Starting login controller @ https://s4tr4.applexus.com:8444/sap/public/bc/ui2/logon/fiori3/js/login.js?v=3_9_1:1180
+[    5239ms] [LOG] 16:19:52.330 login [INFO] Activating page elements @ https://s4tr4.applexus.com:8444/sap/public/bc/ui2/logon/fiori3/js/login.js?v=3_9_1:1180
+[    5348ms] [ERROR] 16:19:52.439 login [ERROR] ICF_SYSTEM_LOGIN002 - Logon through HTTP is not possible; logon ticket is active for HTTPS only @ https://s4tr4.applexus.com:8444/sap/public/bc/ui2/logon/fiori3/js/login.js?v=3_9_1:1205

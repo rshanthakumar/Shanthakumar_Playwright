@@ -1,0 +1,486 @@
+- generic [ref=f1e1]:
+  - generic:
+    - status
+    - status
+  - generic [ref=f1e9]:
+    - banner "Shell Bar" [ref=f1e11]:
+      - generic [ref=f1e12]:
+        - button "Back" [ref=f1e207] [cursor=pointer]:
+          - generic [ref=f1e208]: 
+        - button [ref=f1e13] [cursor=pointer]:
+          - img "SAP Logo" [ref=f1e14]
+        - heading [level=1] [ref=f1e215] [cursor=pointer]:
+          - button "Create Purchase Order - Show Navigation Menu" [ref=f1e216]:
+            - generic [ref=f1e17]: Create Purchase Order
+            - generic [aria-hidden] [ref=f1e19]: 
+      - generic [ref=f1e21]:  
+      - generic [ref=f1e22]:
+        - button "Open Search" [ref=f1e211] [cursor=pointer]:
+          - generic [ref=f1e212]: 
+        - button "Open Help" [ref=f1e165] [cursor=pointer]:
+          - generic [ref=f1e166]: 
+        - button "Notifications" [ref=f1e88] [cursor=pointer]:
+          - generic [ref=f1e89]: 
+        - button "Profile of Esakki kumar" [ref=f1e23] [cursor=pointer]:
+          - generic: Ek
+    - generic [ref=f1e25]:
+      - text:                                
+      - generic [ref=f1e27]:
+        - main "Shell Content" [ref=f1e32]:
+          - iframe [active] [ref=f1e214]:
+            - generic [ref=f3e1]:
+              - main "Create Purchase Order" [ref=f3e16]:
+                - generic [ref=f3e4]:
+                  - generic [ref=f3e10299]:
+                    - toolbar [ref=f3e10300]:
+                      - button "Menu" [ref=f3e10302] [cursor=pointer]:
+                        - generic [aria-hidden]: 
+                      - text: 
+                      - button "Document Overview On" [ref=f3e10304] [cursor=pointer]
+                      - button "Create" [ref=f3e10306] [cursor=pointer]
+                      - button "Other Purchase Order" [ref=f3e10308] [cursor=pointer]
+                      - button "Hold" [ref=f3e10310] [cursor=pointer]
+                      - button "Check" [ref=f3e10312] [cursor=pointer]
+                      - button "Display Messages" [ref=f3e10314] [cursor=pointer]
+                      - button "Print Preview" [ref=f3e10316] [cursor=pointer]
+                      - button "Messages" [ref=f3e10318] [cursor=pointer]
+                      - button "Help" [ref=f3e10320] [cursor=pointer]
+                      - button "Personal Setting" [ref=f3e10322] [cursor=pointer]
+                      - text: 
+                      - button "More" [ref=f3e10324] [cursor=pointer]:
+                        - generic [aria-hidden]: 
+                    - generic [ref=f3e10325]:
+                      - button "Find (Ctrl+F)" [ref=f3e10327] [cursor=pointer]
+                      - button "Print (Ctrl+P)" [ref=f3e10329] [cursor=pointer]
+                      - button "Exit" [ref=f3e10331] [cursor=pointer]
+                  - generic [ref=f3e10332]:
+                    - generic [ref=f3e10333]:
+                      - generic [ref=f3e10334]:
+                        - img "Shopping Cart" [ref=f3e10339]
+                        - generic [ref=f3e10340]:
+                          - generic [ref=f3e10341]:
+                            - textbox "Order Type" [ref=f3e10342]: Standard PO
+                            - generic [aria-hidden] [ref=f3e10343] [cursor=pointer]: 
+                          - textbox "Purchasing Document" [ref=f3e10345]
+                          - generic [ref=f3e10346]: Supplier
+                          - textbox "Supplier" [ref=f3e10351]: 5000000001 Bike Berry Corporate
+                          - generic [ref=f3e10352]: Doc. Date
+                          - textbox "Doc. Date" [ref=f3e10357]: 14.10.2026
+                      - generic [ref=f3e10358]:
+                        - button "Collapse Header Ctrl+F5" [ref=f3e10361] [cursor=pointer]
+                        - generic [ref=f3e10364]:
+                          - tablist [ref=f3e10365]:
+                            - tab "Delivery/Invoice" [ref=f3e10367] [cursor=pointer]
+                            - tab "Conditions" [ref=f3e10369] [cursor=pointer]
+                            - tab "Texts" [ref=f3e10371] [cursor=pointer]
+                            - tab "Address" [ref=f3e10373] [cursor=pointer]
+                            - tab "Communication" [ref=f3e10375] [cursor=pointer]
+                            - tab "Partners" [ref=f3e10377] [cursor=pointer]
+                            - tab "Additional Data" [ref=f3e10379] [cursor=pointer]
+                            - tab "Org. Data" [selected] [ref=f3e10381]
+                            - tab "Status" [ref=f3e10383] [cursor=pointer]
+                            - tab "Payment Processing" [ref=f3e10385] [cursor=pointer]
+                            - tab "Incoterms" [ref=f3e10387] [cursor=pointer]
+                            - tab "Custom Fields" [ref=f3e10389] [cursor=pointer]
+                          - generic [ref=f3e10390] [cursor=pointer]: 
+                          - generic "Navigation Menu" [ref=f3e10391] [cursor=pointer]: 
+                          - tabpanel [ref=f3e10393]:
+                            - generic [ref=f3e10395]:
+                              - generic "Purchasing Org." [ref=f3e10398]: Purch. Org.
+                              - textbox "Purch. Org." [ref=f3e10401]: IBUP
+                              - generic [ref=f3e10402]: IBC US P.org
+                              - generic [ref=f3e10406]: Purch. Group
+                              - textbox "Purch. Group" [ref=f3e10411]: IBU
+                              - generic [ref=f3e10412]: IBC US P.grp
+                              - generic [ref=f3e10416]: Company Code
+                              - textbox "Company Code" [ref=f3e10421]: IBU1
+                              - generic [ref=f3e10422]: Integrated Bike Co. - USA
+                      - generic [ref=f3e10426]:
+                        - button "Collapse Items Ctrl+F6" [ref=f3e10429] [cursor=pointer]
+                        - generic [ref=f3e10431]:
+                          - grid [ref=f3e10433]:
+                            - rowgroup
+                            - rowgroup [ref=f3e10442]:
+                              - row [ref=f3e10450]:
+                                - columnheader "Column for row selection" [ref=f3e10451]:
+                                  - button "" [ref=f3e10453] [cursor=pointer]
+                                - columnheader "Status" [ref=f3e10454]
+                                - columnheader "Itm" [ref=f3e10460]
+                                - columnheader "A" [ref=f3e10466]
+                                - columnheader "I" [ref=f3e10472]
+                                - columnheader [ref=f3e10478]:
+                                  - generic "Structure view" [ref=f3e10482] [cursor=pointer]
+                                - columnheader "Material" [ref=f3e10486]
+                                - columnheader "Short Text" [ref=f3e10492]
+                                - columnheader "PO Quantity" [ref=f3e10498]
+                                - columnheader "OUn" [ref=f3e10504]
+                                - columnheader "C" [ref=f3e10510]
+                                - columnheader "Deliv. Date" [ref=f3e10516]
+                                - columnheader "Net Price" [ref=f3e10522]
+                                - columnheader "Currency" [ref=f3e10528]
+                                - columnheader "Per" [ref=f3e10534]
+                                - columnheader "OPU" [ref=f3e10540]
+                                - columnheader "Matl Group" [ref=f3e10546]
+                                - columnheader "Plant" [ref=f3e10552]
+                                - columnheader "Stor. Location" [ref=f3e10558]
+                                - columnheader "Batch" [ref=f3e10564]
+                                - columnheader "Stock Segment" [ref=f3e10570]
+                                - columnheader "Req. Segment" [ref=f3e10576]
+                                - columnheader "Reqmt No." [ref=f3e10582]
+                                - columnheader "Requisitioner" [ref=f3e10588]
+                                - columnheader "IM Material" [ref=f3e10594]
+                                - columnheader "Info rec." [ref=f3e10600]
+                                - columnheader "Returns Item" [ref=f3e10606]
+                                - columnheader "Free" [ref=f3e10612]
+                                - columnheader "Texts" [ref=f3e10618]
+                                - columnheader "Purchase Req." [ref=f3e10624]
+                                - columnheader "Requisn. item" [ref=f3e10630]
+                                - columnheader "Outline agreement" [ref=f3e10636]
+                                - columnheader "Contr. Item" [ref=f3e10642]
+                                - columnheader "RFQ" [ref=f3e10648]
+                                - columnheader "Item" [ref=f3e10654]
+                                - columnheader "Purchasing Doc." [ref=f3e10660]
+                                - columnheader "Item" [ref=f3e10666]
+                                - columnheader "Iss. Stor. Loc." [ref=f3e10672]
+                                - columnheader "Higher-Level Item" [ref=f3e10678]
+                                - columnheader "Subitem Category" [ref=f3e10684]
+                                - columnheader "IUID" [ref=f3e10690]
+                                - columnheader "Fixed Date" [ref=f3e10696]
+                                - columnheader "Characteristic 1" [ref=f3e10702]
+                                - columnheader "Char Desc. 1" [ref=f3e10708]
+                                - columnheader "Characteristic 2" [ref=f3e10714]
+                                - columnheader "Char Desc. 2" [ref=f3e10720]
+                                - columnheader "Characteristic 3" [ref=f3e10726]
+                                - columnheader "Char Desc. 3" [ref=f3e10732]
+                              - button "" [ref=f3e10785] [cursor=pointer]
+                              - generic [ref=f3e10787]:
+                                - row [ref=f3e10793]:
+                                  - gridcell "To select a row, press the space bar." [ref=f3e10794] [cursor=pointer]
+                                  - gridcell [ref=f3e10796] [cursor=pointer]:
+                                    - button "Item Messages (Error)" [ref=f3e10798]
+                                  - gridcell [ref=f3e10799] [cursor=pointer]:
+                                    - textbox [ref=f3e10802]
+                                  - gridcell [ref=f3e10803] [cursor=pointer]:
+                                    - textbox [ref=f3e10806]
+                                  - gridcell [ref=f3e10807] [cursor=pointer]:
+                                    - textbox [ref=f3e10810]
+                                  - gridcell [ref=f3e10811] [cursor=pointer]:
+                                    - button [ref=f3e10813]
+                                  - gridcell [ref=f3e10814] [cursor=pointer]:
+                                    - textbox [active] [ref=f3e10817]: "1000790"
+                                  - gridcell [ref=f3e10818] [cursor=pointer]:
+                                    - textbox [ref=f3e10821]
+                                  - gridcell [ref=f3e10822] [cursor=pointer]:
+                                    - textbox [ref=f3e10825]
+                                  - gridcell [ref=f3e10826] [cursor=pointer]:
+                                    - textbox [ref=f3e10829]
+                                  - gridcell [ref=f3e10830] [cursor=pointer]:
+                                    - textbox [ref=f3e10833]
+                                  - gridcell [ref=f3e10834] [cursor=pointer]:
+                                    - textbox [ref=f3e10837]
+                                  - gridcell [ref=f3e10838] [cursor=pointer]:
+                                    - textbox [ref=f3e10841]
+                                  - gridcell [ref=f3e10842] [cursor=pointer]:
+                                    - textbox [ref=f3e10845]
+                                  - gridcell [ref=f3e10846] [cursor=pointer]:
+                                    - textbox [ref=f3e10849]
+                                  - gridcell [ref=f3e10850] [cursor=pointer]:
+                                    - textbox [ref=f3e10853]
+                                  - gridcell [ref=f3e10854] [cursor=pointer]:
+                                    - textbox [ref=f3e10857]
+                                  - gridcell [ref=f3e10858] [cursor=pointer]:
+                                    - textbox [ref=f3e10861]
+                                  - gridcell [ref=f3e10862] [cursor=pointer]:
+                                    - textbox [ref=f3e10865]
+                                  - gridcell [ref=f3e10866] [cursor=pointer]:
+                                    - textbox [ref=f3e10869]
+                                  - gridcell [ref=f3e10870] [cursor=pointer]:
+                                    - textbox [ref=f3e10873]
+                                  - gridcell [ref=f3e10874] [cursor=pointer]:
+                                    - textbox [ref=f3e10877]
+                                  - gridcell [ref=f3e10878] [cursor=pointer]:
+                                    - textbox [ref=f3e10881]
+                                  - gridcell [ref=f3e10882] [cursor=pointer]:
+                                    - textbox [ref=f3e10885]
+                                  - gridcell "Empty" [ref=f3e10886] [cursor=pointer]:
+                                    - generic "Empty" [ref=f3e10888]
+                                  - gridcell [ref=f3e10889] [cursor=pointer]:
+                                    - textbox [ref=f3e10892]
+                                  - gridcell [ref=f3e10893] [cursor=pointer]:
+                                    - checkbox "" [ref=f3e10895]
+                                  - gridcell [ref=f3e10896] [cursor=pointer]:
+                                    - checkbox "" [ref=f3e10898]
+                                  - gridcell "Empty" [ref=f3e10899] [cursor=pointer]:
+                                    - generic "Empty" [ref=f3e10901]
+                                  - gridcell [ref=f3e10902] [cursor=pointer]:
+                                    - textbox [ref=f3e10905]
+                                  - gridcell [ref=f3e10906] [cursor=pointer]:
+                                    - textbox [ref=f3e10909]
+                                  - gridcell [ref=f3e10910] [cursor=pointer]:
+                                    - textbox [ref=f3e10913]
+                                  - gridcell [ref=f3e10914] [cursor=pointer]:
+                                    - textbox [ref=f3e10917]
+                                  - gridcell [ref=f3e10918] [cursor=pointer]:
+                                    - textbox [ref=f3e10921]
+                                  - gridcell [ref=f3e10922] [cursor=pointer]:
+                                    - textbox [ref=f3e10925]
+                                  - gridcell [ref=f3e10926] [cursor=pointer]:
+                                    - textbox [ref=f3e10929]
+                                  - gridcell [ref=f3e10930] [cursor=pointer]:
+                                    - textbox [ref=f3e10933]
+                                  - gridcell [ref=f3e10934] [cursor=pointer]:
+                                    - textbox [ref=f3e10937]
+                                  - gridcell [ref=f3e10938] [cursor=pointer]:
+                                    - textbox [ref=f3e10941]
+                                  - gridcell [ref=f3e10942] [cursor=pointer]:
+                                    - textbox [ref=f3e10945]
+                                  - gridcell "Empty" [ref=f3e10946] [cursor=pointer]:
+                                    - generic "Empty" [ref=f3e10948]
+                                  - gridcell [ref=f3e10949] [cursor=pointer]:
+                                    - checkbox [disabled] [ref=f3e10951]
+                                  - gridcell [ref=f3e10952] [cursor=pointer]:
+                                    - textbox [ref=f3e10955]
+                                  - gridcell [ref=f3e10956] [cursor=pointer]:
+                                    - textbox [ref=f3e10959]
+                                  - gridcell [ref=f3e10960] [cursor=pointer]:
+                                    - textbox [ref=f3e10963]
+                                  - gridcell [ref=f3e10964] [cursor=pointer]:
+                                    - textbox [ref=f3e10967]
+                                  - gridcell [ref=f3e10968] [cursor=pointer]:
+                                    - textbox [ref=f3e10971]
+                                  - gridcell [ref=f3e10972] [cursor=pointer]:
+                                    - textbox [ref=f3e10975]
+                                - row [ref=f3e10976]:
+                                  - gridcell "To select a row, press the space bar." [ref=f3e10977] [cursor=pointer]
+                                  - gridcell [ref=f3e10979] [cursor=pointer]:
+                                    - button [ref=f3e10981]
+                                  - gridcell [ref=f3e10982] [cursor=pointer]:
+                                    - textbox [ref=f3e10985]
+                                  - gridcell [ref=f3e10986] [cursor=pointer]:
+                                    - textbox [ref=f3e10989]
+                                  - gridcell [ref=f3e10990] [cursor=pointer]:
+                                    - textbox [ref=f3e10993]
+                                  - gridcell [ref=f3e10994] [cursor=pointer]:
+                                    - button [ref=f3e10996]
+                                  - gridcell [ref=f3e10997] [cursor=pointer]:
+                                    - textbox [ref=f3e11000]
+                                  - gridcell [ref=f3e11001] [cursor=pointer]:
+                                    - textbox [ref=f3e11004]
+                                  - gridcell [ref=f3e11005] [cursor=pointer]:
+                                    - textbox [ref=f3e11008]
+                                  - gridcell [ref=f3e11009] [cursor=pointer]:
+                                    - textbox [ref=f3e11012]
+                                  - gridcell [ref=f3e11013] [cursor=pointer]:
+                                    - textbox [ref=f3e11016]
+                                  - gridcell [ref=f3e11017] [cursor=pointer]:
+                                    - textbox [ref=f3e11020]
+                                  - gridcell [ref=f3e11021] [cursor=pointer]:
+                                    - textbox [ref=f3e11024]
+                                  - gridcell [ref=f3e11025] [cursor=pointer]:
+                                    - textbox [ref=f3e11028]
+                                  - gridcell [ref=f3e11029] [cursor=pointer]:
+                                    - textbox [ref=f3e11032]
+                                  - gridcell [ref=f3e11033] [cursor=pointer]:
+                                    - textbox [ref=f3e11036]
+                                  - gridcell [ref=f3e11037] [cursor=pointer]:
+                                    - textbox [ref=f3e11040]
+                                  - gridcell [ref=f3e11041] [cursor=pointer]:
+                                    - textbox [ref=f3e11044]
+                                  - gridcell [ref=f3e11045] [cursor=pointer]:
+                                    - textbox [ref=f3e11048]
+                                  - gridcell [ref=f3e11049] [cursor=pointer]:
+                                    - textbox [ref=f3e11052]
+                                  - gridcell [ref=f3e11053] [cursor=pointer]:
+                                    - textbox [ref=f3e11056]
+                                  - gridcell [ref=f3e11057] [cursor=pointer]:
+                                    - textbox [ref=f3e11060]
+                                  - gridcell [ref=f3e11061] [cursor=pointer]:
+                                    - textbox [ref=f3e11064]
+                                  - gridcell [ref=f3e11065] [cursor=pointer]:
+                                    - textbox [ref=f3e11068]
+                                  - gridcell [ref=f3e11069] [cursor=pointer]:
+                                    - textbox [ref=f3e11072]
+                                  - gridcell [ref=f3e11073] [cursor=pointer]:
+                                    - textbox [ref=f3e11076]
+                                  - gridcell [ref=f3e11077] [cursor=pointer]:
+                                    - checkbox "" [ref=f3e11079]
+                                  - gridcell [ref=f3e11080] [cursor=pointer]:
+                                    - checkbox "" [ref=f3e11082]
+                                  - gridcell "Empty" [ref=f3e11083] [cursor=pointer]:
+                                    - generic "Empty" [ref=f3e11085]
+                                  - gridcell [ref=f3e11086] [cursor=pointer]:
+                                    - textbox [ref=f3e11089]
+                                  - gridcell [ref=f3e11090] [cursor=pointer]:
+                                    - textbox [ref=f3e11093]
+                                  - gridcell [ref=f3e11094] [cursor=pointer]:
+                                    - textbox [ref=f3e11097]
+                                  - gridcell [ref=f3e11098] [cursor=pointer]:
+                                    - textbox [ref=f3e11101]
+                                  - gridcell [ref=f3e11102] [cursor=pointer]:
+                                    - textbox [ref=f3e11105]
+                                  - gridcell [ref=f3e11106] [cursor=pointer]:
+                                    - textbox [ref=f3e11109]
+                                  - gridcell [ref=f3e11110] [cursor=pointer]:
+                                    - textbox [ref=f3e11113]
+                                  - gridcell [ref=f3e11114] [cursor=pointer]:
+                                    - textbox [ref=f3e11117]
+                                  - gridcell [ref=f3e11118] [cursor=pointer]:
+                                    - textbox [ref=f3e11121]
+                                  - gridcell [ref=f3e11122] [cursor=pointer]:
+                                    - textbox [ref=f3e11125]
+                                  - gridcell [ref=f3e11126] [cursor=pointer]:
+                                    - textbox [ref=f3e11129]
+                                  - gridcell [ref=f3e11130] [cursor=pointer]:
+                                    - checkbox "" [ref=f3e11132]
+                                  - gridcell [ref=f3e11133] [cursor=pointer]:
+                                    - checkbox [disabled] [ref=f3e11135]
+                                  - gridcell [ref=f3e11136] [cursor=pointer]:
+                                    - textbox [ref=f3e11139]
+                                  - gridcell [ref=f3e11140] [cursor=pointer]:
+                                    - textbox [ref=f3e11143]
+                                  - gridcell [ref=f3e11144] [cursor=pointer]:
+                                    - textbox [ref=f3e11147]
+                                  - gridcell [ref=f3e11148] [cursor=pointer]:
+                                    - textbox [ref=f3e11151]
+                                  - gridcell [ref=f3e11152] [cursor=pointer]:
+                                    - textbox [ref=f3e11155]
+                                  - gridcell [ref=f3e11156] [cursor=pointer]:
+                                    - textbox [ref=f3e11159]
+                                - row [ref=f3e11160]:
+                                  - gridcell "To select a row, press the space bar." [ref=f3e11161] [cursor=pointer]
+                                  - gridcell [ref=f3e11163] [cursor=pointer]:
+                                    - button [ref=f3e11165]
+                                  - gridcell [ref=f3e11166] [cursor=pointer]:
+                                    - textbox [ref=f3e11169]
+                                  - gridcell [ref=f3e11170] [cursor=pointer]:
+                                    - textbox [ref=f3e11173]
+                                  - gridcell [ref=f3e11174] [cursor=pointer]:
+                                    - textbox [ref=f3e11177]
+                                  - gridcell [ref=f3e11178] [cursor=pointer]:
+                                    - button [ref=f3e11180]
+                                  - gridcell [ref=f3e11181] [cursor=pointer]:
+                                    - textbox [ref=f3e11184]
+                                  - gridcell [ref=f3e11185] [cursor=pointer]:
+                                    - textbox [ref=f3e11188]
+                                  - gridcell [ref=f3e11189] [cursor=pointer]:
+                                    - textbox [ref=f3e11192]
+                                  - gridcell [ref=f3e11193] [cursor=pointer]:
+                                    - textbox [ref=f3e11196]
+                                  - gridcell [ref=f3e11197] [cursor=pointer]:
+                                    - textbox [ref=f3e11200]
+                                  - gridcell [ref=f3e11201] [cursor=pointer]:
+                                    - textbox [ref=f3e11204]
+                                  - gridcell [ref=f3e11205] [cursor=pointer]:
+                                    - textbox [ref=f3e11208]
+                                  - gridcell [ref=f3e11209] [cursor=pointer]:
+                                    - textbox [ref=f3e11212]
+                                  - gridcell [ref=f3e11213] [cursor=pointer]:
+                                    - textbox [ref=f3e11216]
+                                  - gridcell [ref=f3e11217] [cursor=pointer]:
+                                    - textbox [ref=f3e11220]
+                                  - gridcell [ref=f3e11221] [cursor=pointer]:
+                                    - textbox [ref=f3e11224]
+                                  - gridcell [ref=f3e11225] [cursor=pointer]:
+                                    - textbox [ref=f3e11228]
+                                  - gridcell [ref=f3e11229] [cursor=pointer]:
+                                    - textbox [ref=f3e11232]
+                                  - gridcell [ref=f3e11233] [cursor=pointer]:
+                                    - textbox [ref=f3e11236]
+                                  - gridcell [ref=f3e11237] [cursor=pointer]:
+                                    - textbox [ref=f3e11240]
+                                  - gridcell [ref=f3e11241] [cursor=pointer]:
+                                    - textbox [ref=f3e11244]
+                                  - gridcell [ref=f3e11245] [cursor=pointer]:
+                                    - textbox [ref=f3e11248]
+                                  - gridcell [ref=f3e11249] [cursor=pointer]:
+                                    - textbox [ref=f3e11252]
+                                  - gridcell [ref=f3e11253] [cursor=pointer]:
+                                    - textbox [ref=f3e11256]
+                                  - gridcell [ref=f3e11257] [cursor=pointer]:
+                                    - textbox [ref=f3e11260]
+                                  - gridcell [ref=f3e11261] [cursor=pointer]:
+                                    - checkbox "" [ref=f3e11263]
+                                  - gridcell [ref=f3e11264] [cursor=pointer]:
+                                    - checkbox "" [ref=f3e11266]
+                                  - gridcell "Empty" [ref=f3e11267] [cursor=pointer]:
+                                    - generic "Empty" [ref=f3e11269]
+                                  - gridcell [ref=f3e11270] [cursor=pointer]:
+                                    - textbox [ref=f3e11273]
+                                  - gridcell [ref=f3e11274] [cursor=pointer]:
+                                    - textbox [ref=f3e11277]
+                                  - gridcell [ref=f3e11278] [cursor=pointer]:
+                                    - textbox [ref=f3e11281]
+                                  - gridcell [ref=f3e11282] [cursor=pointer]:
+                                    - textbox [ref=f3e11285]
+                                  - gridcell [ref=f3e11286] [cursor=pointer]:
+                                    - textbox [ref=f3e11289]
+                                  - gridcell [ref=f3e11290] [cursor=pointer]:
+                                    - textbox [ref=f3e11293]
+                                  - gridcell [ref=f3e11294] [cursor=pointer]:
+                                    - textbox [ref=f3e11297]
+                                  - gridcell [ref=f3e11298] [cursor=pointer]:
+                                    - textbox [ref=f3e11301]
+                                  - gridcell [ref=f3e11302] [cursor=pointer]:
+                                    - textbox [ref=f3e11305]
+                                  - gridcell [ref=f3e11306] [cursor=pointer]:
+                                    - textbox [ref=f3e11309]
+                                  - gridcell [ref=f3e11310] [cursor=pointer]:
+                                    - textbox [ref=f3e11313]
+                                  - gridcell [ref=f3e11314] [cursor=pointer]:
+                                    - checkbox "" [ref=f3e11316]
+                                  - gridcell [ref=f3e11317] [cursor=pointer]:
+                                    - checkbox [disabled] [ref=f3e11319]
+                                  - gridcell [ref=f3e11320] [cursor=pointer]:
+                                    - textbox [ref=f3e11323]
+                                  - gridcell [ref=f3e11324] [cursor=pointer]:
+                                    - textbox [ref=f3e11327]
+                                  - gridcell [ref=f3e11328] [cursor=pointer]:
+                                    - textbox [ref=f3e11331]
+                                  - gridcell [ref=f3e11332] [cursor=pointer]:
+                                    - textbox [ref=f3e11335]
+                                  - gridcell [ref=f3e11336] [cursor=pointer]:
+                                    - textbox [ref=f3e11339]
+                                  - gridcell [ref=f3e11340] [cursor=pointer]:
+                                    - textbox [ref=f3e11343]
+                            - rowgroup [ref=f3e11395]
+                            - rowgroup
+                          - button "Choose PO Item" [ref=f3e11400] [cursor=pointer]
+                          - button "Select Block" [ref=f3e11402] [cursor=pointer]
+                          - button "Select All" [ref=f3e11404] [cursor=pointer]
+                          - button "Deselect All" [disabled] [ref=f3e11406]
+                          - button "Delete" [ref=f3e11408] [cursor=pointer]
+                          - button "Block" [ref=f3e11410] [cursor=pointer]
+                          - button "Unblock/Undelete" [ref=f3e11412] [cursor=pointer]
+                          - button "Copy Item" [ref=f3e11414] [cursor=pointer]
+                          - button "Fast Change" [ref=f3e11416] [cursor=pointer]
+                          - button "Sort (Ascending)" [ref=f3e11418] [cursor=pointer]
+                          - button "Sort (Descending)" [ref=f3e11420] [cursor=pointer]
+                          - button "Set Filter" [ref=f3e11422] [cursor=pointer]
+                          - button "Undo filter" [disabled] [ref=f3e11424]
+                          - button "Documents" [ref=f3e11426] [cursor=pointer]
+                          - button "Default Values" [ref=f3e11428] [cursor=pointer]
+                          - button "Addl Planning" [ref=f3e11430] [cursor=pointer]
+                          - button "VAS Details" [ref=f3e11432] [cursor=pointer]
+                          - button "Mat. Replacement" [ref=f3e11434] [cursor=pointer]
+                      - generic [ref=f3e11435]:
+                        - button "Expand Item Details Ctrl+F4" [ref=f3e11438] [cursor=pointer]
+                        - button "Item Detail" [ref=f3e11443]
+                    - generic: 
+                  - generic [ref=f3e13]:
+                    - toolbar [ref=f3e11446]:
+                      - button "Save Emphasized" [ref=f3e11448] [cursor=pointer]:
+                        - generic: Save
+                        - generic: Emphasized
+                      - button "Cancel" [ref=f3e11450] [cursor=pointer]
+                    - text: 
+                - generic:     
+              - iframe [aria-hidden] [ref=f3e1213]
+              - generic:
+                - alert [aria-hidden] [ref=f3e2417]: "Error: Material 1000790 not maintained in plant IBP1Warning: Can delivery date be met?Error: Enter Plant Error: Enter Purchasing Org."
+                - generic: EmphasizedPrevious ActionNext ActionPositive ActionNegative ActionTo open the menu, press F4.Press Enter to trigger an action and Arrow Down to open the menu.Split ButtonTo edit the title, press F2. To lock the title, press Enter.To open list, press F4. To select a different item, use up and down arrow keys.To select, press the space bar.To deselect, press the space bar.To enter, press the tab key. To navigate within a month, use the arrow keys.To edit the text, press F2. To save the text, press Enter. To cancel editing, press Escape.Press the left arrow key for the previous month.Press the right arrow key for the next month.Press the left arrow key for the previous month. Press the up arrow key for the previous year.Press the right arrow key for the next month. Press the down arrow key for the next year.To select a day, press the space bar. To move through the days, use the arrow keys. To go to the previous or next month, use Page Up/Down. To go to the previous or next year, use Shift+Page Up/Down.RequiredEmphasizedWarningInformationValue help availableTo search, press F4.RequiredRead-OnlyItemDeletableSelectededitableDisabledInvalidTo move through the items, use the left and right arrow keys.To move through the items, use the left and right arrow keys. To select items, use the space bar.Collapse toolbarExpand toolbarTo invoke, press return key.To open the list of proposals, press ALT + arrow down.To edit the title, press F2.To lock the title, press Enter.To open, press the space bar.To move through the items, use the up and down arrow keys.To collapse, press the space bar.To expand, press the space bar.To move, hold shift and press the arrow keys.SelectedTo activate, press the space bar.Navigation listInput field for file uploadRead-OnlyPager ItemTo select, press the space bar.To deselect, press CTRL and the space bar.To deselect all, press CTRL and the space bar.To select all, press the space bar.Column for row selectionBreadcrumb navigation listSet the value using the arrow keys.Press F4 to open the list and use the arrow keys to select a value.SearchCalculatorSpinnerDate SpinnerValue help availableDateHighlightedHotspotEmptyTo navigate to content, press Tab.To move to an item, press the arrow keys.FilteredExpandedCollapsedInvalidMessage area contains messages. To toggle the focus, press Ctrl+Shift+Alt+M.CompletedTo expand, press plus.To collapse, press minus.
+        - generic:
+          - complementary "Floating Container":
+            - list
+    - contentinfo
+  - generic:
+    - region "Notification"
